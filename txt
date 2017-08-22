@@ -1,0 +1,30 @@
+ //sum of first 500 natural numbers
+var  num, sum = 0;
+ 
+    for (num = 1; num < 500; num++)
+    {
+        sum = sum + num;
+    }
+    console.log("Sum = %4d\n", sum);
+	
+//Find the sum of all the multiples of 3 or 5 below 1000.	
+var sum = 0;
+for (var i = 0; i < 1000; i++) {
+  if (i % 3 === 0 || i % 5 === 0) {
+    sum += i;
+  }
+}
+console.log('Sum: %d', sum);
+
+//Given a number, find the closest power of 2 which is less than or equal to the number. If the number is 36, your answer should be 5 as 32 (2^5) is the closest power less than 36.	
+ 	Input: 36	
+ 	Output: 5	
+////Write a program that prints the numbers from 1 to N. But, for multiples of three, print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.	
+
+var sum = 0;
+for (var i = 0; i < 1000; i++) {
+  if (i % 3 === 0 || i % 5 === 0) {
+    sum += i;
+  }
+}
+console.log('Sum: %d', sum);
